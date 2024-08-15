@@ -1,15 +1,29 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../public/pictures/4350039_10076.jpg);
+  position: relative;
+  z-index: 1; /* Ensure content stays on top */
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../public/pictures/pinkglitter.jpg);
   background-size: cover;
+  background-position: center;
+  opacity: 0.34; /* Adjust this value to control opacity */
+  z-index: -1; /* Ensure the background stays behind the content */
+  pointer-events: none; /* Prevent background from interfering with clicks */
 }
 
 code {
