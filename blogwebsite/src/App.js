@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './home/header/Header.jsx';
-import Footer from './home/footer/footer.js';
+import Header from './home/header/Header';
+import Footer from './home/footer/footer';
 import { ThemeProvider } from './home/themeMode';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
