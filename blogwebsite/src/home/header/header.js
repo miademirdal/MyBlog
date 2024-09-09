@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Header() {
+function header() {
   return (
     <header className="bg-dark text-white py-3">
       <div className="container">
@@ -30,3 +30,4 @@ function Header() {
   );
 }
 
+export default header

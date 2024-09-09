@@ -21,7 +21,7 @@ body::before {
   background-image: url(../public/pictures/pinkglitter.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.34; /* Adjust this value to control opacity */
+  opacity: 0.34;
   z-index: -1; /* Ensure the background stays behind the content */
   pointer-events: none; /* Prevent background from interfering with clicks */
 }
@@ -42,10 +42,10 @@ code {
 }
 
 :root {
-  --color-bg: #bf74ea;
-  --color-bg-variant: #d770e3;
+  --color-bg: #9f11f1;
+  --color-bg-variant: #d50cec;
   --color-primary: #c532bd55;
-  --color-primary-var: rgba(245, 178, 255, 0.6);
+  --color-primary-var: rgba(208, 16, 238, 0.6);
   --color-white: #fff;
   --color-light: rgba(255,255,255,.6);
 
