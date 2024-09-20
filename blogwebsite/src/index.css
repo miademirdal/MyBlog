@@ -18,7 +18,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../public/pictures/pinkglitter.jpg);
+  background-image: url(../public/pictures/branchNature.jpg);
   background-size: cover;
   background-position: center;
   opacity: 0.34;
@@ -42,10 +42,10 @@ code {
 }
 
 :root {
-  --color-bg: #9f11f1;
-  --color-bg-variant: #d50cec;
-  --color-primary: #c532bd55;
-  --color-primary-var: rgba(208, 16, 238, 0.6);
+  --color-bg: #f11115a7;
+  --color-bg-variant: #ec0c0c89;
+  --color-primary: #59060a55;
+  --color-primary-var: rgba(238, 16, 16, 0.6);
   --color-white: #fff;
   --color-light: rgba(255,255,255,.6);
 
