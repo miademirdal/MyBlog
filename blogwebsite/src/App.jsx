@@ -1,20 +1,22 @@
 import React from 'react';
-import Header from './home/header/Header';
-import Footer from './home/footer/footer';
-import { ThemeProvider } from './home/themeMode';
+import Header from './home/header/Header.jsx';
+import Footer from './home/footer/footer.js';
+import { ThemeProvider } from './home/themeMode.js';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './pages/about';
-import Contact from './pages/contact';
-import Info from './pages/info';
+import About from './pages/about.js';
+import Contact from './pages/contact.js';
+import Info from './pages/info.js';
+import CTA from './home/header/CTA.jsx';
 
 
-function App() {
+const App = () => {
   return (
     <Router>
- 
     <div className="App">
-      <Header />
+      <Header>
+        <CTA />
+      </Header>
       <main>
       <ThemeProvider>
         <Routes> 
@@ -30,6 +32,6 @@ function App() {
     </Router>
 
   );
-}
+};
 
 export default App;

@@ -1,6 +1,6 @@
-import React from "react";
-import './headercss.css'
-import CTA from './CTA'
+import React from 'react';
+import './headercss.css';
+import CTA from './CTA';
 
 const Header = () => {
     return (
