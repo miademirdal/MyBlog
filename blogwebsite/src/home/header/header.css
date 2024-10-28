@@ -1,6 +1,8 @@
 body{
-
-    color: rgb(43, 2, 146);
+    color: rgb(112, 14, 14);
+    background-color: blue;
+    border-radius: 5cm;
+    border-color: blue;
 }
 header{
     height: 100vh;

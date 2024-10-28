@@ -19,10 +19,10 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(../public/pictures/branchNature.jpg);
+  background-image: url(../public/pictures/Wildwood+Victorian+Garden.jpg);
   background-size: cover;
   background-position: center;
-  opacity: 0.34;
+  opacity: 0.70;
   z-index: -1; /* Ensure the background stays behind the content */
   pointer-events: none; /* Prevent background from interfering with clicks */
 }
@@ -45,7 +45,7 @@ code {
 :root {
   --color-bg: #5111f1a7;
   --color-bg-variant: #ec0c0c89;
-  --color-primary: #59060a55;
+  --color-primary: #a41118ce;
   --color-primary-var: rgba(238, 16, 16, 0.6);
   --color-white: #fff;
   --color-light: rgba(255,255,255,.6);
