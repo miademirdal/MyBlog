@@ -4,7 +4,8 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--color-bg);
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.7) 20%, rgba(0, 0, 0, 0.719) 70%);
+  min-height: 100vh; /* Ensure it covers the full height */
   color: var(--color-white);
   line-height: 1.7;
   position: relative;
@@ -27,7 +28,7 @@ body::before {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: CaslonAntique, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
@@ -42,7 +43,7 @@ code {
 }
 
 :root {
-  --color-bg: #f11115a7;
+  --color-bg: #5111f1a7;
   --color-bg-variant: #ec0c0c89;
   --color-primary: #59060a55;
   --color-primary-var: rgba(238, 16, 16, 0.6);
