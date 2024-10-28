@@ -71,17 +71,17 @@ header{
 /* MEDIUM DEVICE MEDIA QUERY */
 @media screen and (max-width: 1024px) {
     header {
-      height: 68vh;
+        height: 68vh;
     }
 }
-  
+
   /* SMALL DEVICE MEDIA QUERY */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     header {
         height: 100vh;
-      }
+    }
     .header__socials,
     .scroll__down {
         display: none;
     }
-  }
+}
